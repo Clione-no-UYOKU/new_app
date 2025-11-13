@@ -1,0 +1,13 @@
+@font-face {
+    font-family: "MyFont";
+    src: font-url("myfont.ttc") format(".ttc"),
+        font-url("myfont2.ttc") format(".ttc");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: #000;
+    color: aliceblue;
+    font-family: "MyFont", sans-serif;
+}
