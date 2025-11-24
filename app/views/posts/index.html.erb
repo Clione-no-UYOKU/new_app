@@ -2,7 +2,7 @@
 
 <% content_for :title, "Posts" %>
 
-<h1>Posts</h1>
+<h1>投稿一覧</h1>
 
 <div id="posts">
   <% @posts.each do |post| %>
@@ -13,4 +13,4 @@
   <% end %>
 </div>
 
-<%= link_to "New post", new_post_path %>
+<%= link_to "投稿を書く", new_post_path %>
