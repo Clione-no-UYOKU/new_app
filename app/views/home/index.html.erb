@@ -1,26 +1,34 @@
 <!DOCTYPE html>
 <header>
     <meta charset="UTF-8">
-    <title>HoYoBASEへようこそ</title>
+    <title>Allayへようこそ</title>
     <link rel="stylesheet" href="/assets/stylesheets/fonts.css">
     <link rel="stylesheet" href="/assets/stylesheets/home.css">
 </header>
 <html>
     <body>
-<h1>はじめまして!!HoYoBASEへようこそ!!</h1>
-<p>HoYoBASEは、HoYoverse様のソーシャルゲームの情報交換、交流を目的とした非公式SNSサイトです。</p>
-<p>サイトのアカウント登録はお済みですか？</p>
+    <div class="inner">
+        <h1>はじめまして!!Allrayへようこそ!!</h1>
+        <p>Allrayは、様々な趣味・ジャンルを問わず交流できるSNSサイトです。</p>
+        <p>サイトのアカウント登録はお済みですか？</p>
+    </div>
 
 <p>すでにアカウントをお持ちの方は下のリンクからログインしてください。</p>
-<div class="btn-block">
-    <a class="up" href="/signup">ここからサインアップ</a>
-    <br>
-    もしくは、
-    <br>
-    <a class="in" href="/signin">ここからサインイン</a>
-</div>
+
+    <div class="btn-block">
+        <a class="up" href="/signup">ここからサインアップ</a>
+        <br>
+        もしくは、
+        <br>
+        <a class="in" href="/signin">ここからサインイン</a>
+    </div>
 
 
 
     </body>
 </html>
+
+
+
+<%= link_to "サインアップ", new_user_path %><br>
+<%= link_to "サインイン", new_session_path %>

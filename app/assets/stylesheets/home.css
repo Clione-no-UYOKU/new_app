@@ -3,6 +3,15 @@ body {
     margin-right: auto;
     margin-left: auto;
     max-width: 1100px;
+    text-align: center;
+}
+
+.inner {
+    font-family: 'MyFont';
+
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 900px;
 }
 
 
