@@ -26,3 +26,15 @@ test:
 production:
   <<: *default
   url: <%= ENV['DATABASE_URL'] %>
+
+cable:
+  <<: *default
+  database: storage/cable.sqlite3
+
+cache:
+  <<: *default
+  database: storage/cache.sqlite3
+
+queue:
+  <<: *default
+  database: storage/queue.sqlite3
