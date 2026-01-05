@@ -5,6 +5,7 @@ Rails.application.routes.draw do
   get "users/new"
   get "users/create"
   get "home/index"
+  get "/healthz", to: "health#show"
   resources :posts
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
