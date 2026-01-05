@@ -1,23 +1,25 @@
 body {
-    font-family: 'MyFont';
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-right: auto;
     margin-left: auto;
     max-width: 1100px;
     text-align: center;
 }
 
-.inner {
-    font-family: 'MyFont';
+a {
+    text-decoration: none;
+}
 
+.inner {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-right: auto;
     margin-left: auto;
     max-width: 900px;
 }
 
 
-.btn-block {
-    width: 200px;
-    font-family: 'MyFont';
+.btns {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -25,5 +27,17 @@ body {
     margin-right: auto;
     font-size: 20px;
     color: #fff;
-    background-color: #004f4f;
+}
+
+.btn {
+    background-color: #000;
+    border-radius: 12px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
 }
