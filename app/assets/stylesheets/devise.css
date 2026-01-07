@@ -1,0 +1,95 @@
+/* Devise forms styling */
+
+.devise-form {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #e1f2f5;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.devise-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.field {
+    margin-bottom: 15px;
+}
+
+.field label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+.field input[type="email"],
+.field input[type="password"],
+.field input[type="checkbox"] {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.field input[type="checkbox"] {
+    width: auto;
+    margin-right: 10px;
+}
+
+.actions {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.actions input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.actions input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.devise-shared-links {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.devise-shared-links a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.devise-shared-links a:hover {
+    text-decoration: underline;
+}
+
+/* Error messages */
+#error_explanation {
+    background-color: #f8d7da;
+    color: #721c24;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+#error_explanation h2 {
+    margin-top: 0;
+    font-size: 16px;
+}
+
+#error_explanation ul {
+    margin: 0;
+    padding-left: 20px;
+}

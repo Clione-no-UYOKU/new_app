@@ -1,9 +1,6 @@
 Rails.application.routes.draw do
-  get "sessions/new"
-  get "sessions/create"
-  get "sessions/destroy"
-  get "users/new"
-  get "users/create"
+  get "dashboard/index"
+  devise_for :users
   get "home/index"
   get "/healthz", to: "health#show"
   resources :posts
@@ -20,7 +17,4 @@ Rails.application.routes.draw do
   # Defines the root path route ("/")
   # root "posts#index"
   root "home#index"
-
-  resources :users, only: [:new, :create]
-  resource  :session, only: [:new, :create, :destroy]
 end

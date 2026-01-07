@@ -1,12 +1,22 @@
 <div id="<%= dom_id post %>">
-  <p>
-    <strong>Title:</strong>
-    <%= post.title %>
-  </p>
+  <div class="post-container">
+    <div class="post-avatar">
+      <% if post.user.avatar.attached? %>
+        <%= image_tag post.user.avatar.variant(resize_to_limit: [50, 50]), class: "avatar" %>
+      <% else %>
+        <div class="default-avatar">👤</div>
+      <% end %>
+    </div>
+    <div class="post-content">
+      <p>
+        <strong>Title:</strong>
+        <%= post.title %>
+      </p>
 
-  <p>
-    <strong>Body:</strong>
-    <%= post.body %>
-  </p>
-
+      <p>
+        <strong>Body:</strong>
+        <%= post.body %>
+      </p>
+    </div>
+  </div>
 </div>

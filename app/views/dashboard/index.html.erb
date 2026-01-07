@@ -1,0 +1,13 @@
+<div class="dashboard-container">
+  <h1>アカウントトップ</h1>
+  <p>こんにちは、<%= current_user.nickname %>さん！</p>
+  <p>ようこそAllrayへ。アカウント管理や投稿などが行えます。</p>
+
+  <div class="dashboard-links">
+    <%= link_to "プロフィール編集", edit_user_registration_path, class: "btn" %>
+    <%= link_to "パスワード変更", edit_user_registration_path, class: "btn" %>
+    <%= link_to "投稿一覧", posts_path, class: "btn" %>
+    <%= link_to "新規投稿", new_post_path, class: "btn" %>
+    <%= link_to "ログアウト", destroy_user_session_path, method: :delete, class: "btn logout" %>
+  </div>
+</div>
