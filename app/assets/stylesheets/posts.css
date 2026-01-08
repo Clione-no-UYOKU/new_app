@@ -13,16 +13,26 @@ body {
 }
 
 .post-container {
+    width: 75%;
+    color: #05464e;
     display: flex;
     align-items: flex-start;
     margin-bottom: 20px;
+    margin-right: auto;
+    margin-left: auto;
     padding: 10px;
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: #d2eff4;
     border-radius: 8px;
 }
 
 .post-avatar {
     margin-right: 15px;
+}
+
+.post-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 8px;
 }
 
 .avatar {
@@ -45,4 +55,33 @@ body {
 
 .post-content {
     flex: 1;
+    width: 100%;
+    text-align: left;
+}
+
+.post-content p {
+    overflow-wrap: anywhere;
+}
+
+.post-content strong {
+    display: none;
+    font-weight: bold;
+}
+
+.link {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    width: 200px;
+    padding-right: auto;
+    padding-left: auto;
+}
+
+.new-post {
+    margin: 20px 0 20px;
+    background-color: #3496ff;
+    color: #fff;
+    padding: 10px 0;
+    border-radius: 4px;
+    display: inline-block;
 }

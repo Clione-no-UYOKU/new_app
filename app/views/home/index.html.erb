@@ -6,20 +6,22 @@
     <link rel="stylesheet" href="/assets/stylesheets/fonts.css">
     <link rel="stylesheet" href="/assets/stylesheets/home.css">
 </header>
-<div class="inner">
-    <h1>はじめまして!!Allrayへようこそ!!</h1>
-    <p>Allrayは、様々な趣味・ジャンルを問わず交流できるSNSサイトです。</p>
-    <p>サイトのアカウント登録はお済みですか？</p>
-</div>
-
-<p>すでにアカウントをお持ちの方は下のリンクからログインしてください。</p>
-
-<div class="btns">
-    <div class="btn">
-        <%= link_to "サインアップ", new_user_registration_path %>
+<div class="home-container">
+    <div class="inner">
+        <h1>はじめまして!!Allrayへようこそ!!</h1>
+        <p>Allrayは、様々な趣味・ジャンルを問わず交流できるSNSサイトです。</p>
+        <p>サイトのアカウント登録はお済みですか？</p>
     </div>
-    もしくは、
-    <div class="btn">
-        <%= link_to "サインイン", new_user_session_path %>
+
+    <p>すでにアカウントをお持ちの方は下のリンクからログインしてください。</p>
+
+    <div class="btns">
+        <div class="btn">
+            <%= link_to "サインアップ", new_user_registration_path %>
+        </div>
+        もしくは、
+        <div class="btn">
+            <%= link_to "サインイン", new_user_session_path %>
+        </div>
     </div>
 </div>

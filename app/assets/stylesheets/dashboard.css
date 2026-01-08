@@ -4,7 +4,7 @@
     max-width: 800px;
     margin: 50px auto;
     padding: 20px;
-    background-color: #e1f2f5;
+    background-color: #d2eff4;
     border-radius: 8px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     text-align: center;
@@ -31,7 +31,7 @@
 .dashboard-links .btn {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #007bff;
+    background-color: #3496ff;
     color: white;
     text-decoration: none;
     border-radius: 4px;

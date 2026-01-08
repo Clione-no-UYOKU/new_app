@@ -6,13 +6,12 @@
 
 <div id="posts">
   <% @posts.each do |post| %>
-    <%= render post %>
-    <p>
-      <%= link_to "Show this post", post %>
-    </p>
+    <%= link_to post, class: "post-link" do %>
+      <%= render post %>
+    <% end %>
   <% end %>
 </div>
 
-<%= link_to "投稿を書く", new_post_path %>
+<%= link_to "新規投稿", new_post_path , class: "link new-post" %>
 <br>
-<%= link_to "アカウントトップ", dashboard_index_path %>
+<%= link_to "アカウントトップ", dashboard_index_path , class: "link ac_top" %>
