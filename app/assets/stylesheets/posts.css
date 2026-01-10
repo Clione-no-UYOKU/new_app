@@ -79,9 +79,40 @@ body {
 
 .new-post {
     margin: 20px 0 20px;
-    background-color: #3496ff;
+    background-color: #3b819b;
     color: #fff;
     padding: 10px 0;
     border-radius: 4px;
     display: inline-block;
+}
+
+.post-title-input {
+    padding: 5px;
+    min-width: 200px;
+    width: 50%;
+    border-radius: 12px;
+    font-size: 24px;
+    border: 3px solid #333;
+}
+
+.post-body-input {
+    padding: 5px;
+    min-width: 320px;
+    max-width: 880px;
+    width: 80%;
+    height: 150px;
+    border-radius: 12px;
+    font-size: 24px;
+    border: 3px solid #333;
+}
+
+.create-post {
+    font-size: 16px;
+    color: white;
+    background-color: #3b819b;
+    width: 200px;
+    margin: 20px 0 0 0;
+    padding: 10px 30px;
+    border-radius: 4px;
+    border: none;
 }

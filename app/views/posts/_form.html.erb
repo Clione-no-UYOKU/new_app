@@ -12,16 +12,16 @@
   <% end %>
 
   <div>
-    <%= form.label :title, style: "display: block" %>
-    <%= form.text_field :title %>
+    <%= form.label :タイトル, style: "display: block" %>
+    <%= form.text_field :title , class: "post-title-input" %>
   </div>
 
   <div>
-    <%= form.label :body, style: "display: block" %>
-    <%= form.textarea :body %>
+    <%= form.label :本文, style: "display: block" %>
+    <%= form.textarea :body, class: "post-body-input" %>
   </div>
 
   <div>
-    <%= form.submit %>
+  <%= form.submit value: "投稿", class: "create-post" %>
   </div>
 <% end %>
