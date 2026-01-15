@@ -12,6 +12,15 @@ body {
     font-family: "MyFont", sans-serif;
 }
 
+.link {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    width: 200px;
+    padding-right: auto;
+    padding-left: auto;
+}
+
 .post-container {
     width: 75%;
     color: #05464e;
@@ -25,8 +34,11 @@ body {
     border-radius: 8px;
 }
 
-.post-avatar {
-    margin-right: 15px;
+.avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
 }
 
 .post-title {
@@ -35,22 +47,8 @@ body {
     margin-bottom: 8px;
 }
 
-.avatar {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    object-fit: cover;
-}
-
-.default-avatar {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    background-color: #ccc;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 24px;
+.post-avatar {
+    margin-right: 15px;
 }
 
 .post-content {
@@ -66,24 +64,7 @@ body {
 .post-content strong {
     display: none;
     font-weight: bold;
-}
 
-.link {
-    color: #fff;
-    text-decoration: none;
-    font-weight: bold;
-    width: 200px;
-    padding-right: auto;
-    padding-left: auto;
-}
-
-.new-post {
-    margin: 20px 0 20px;
-    background-color: #3b819b;
-    color: #fff;
-    padding: 10px 0;
-    border-radius: 4px;
-    display: inline-block;
 }
 
 .post-title-input {
@@ -106,6 +87,26 @@ body {
     border: 3px solid #333;
 }
 
+.default-avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+}
+
+.new-post {
+    margin: 20px 0 20px;
+    background-color: #3b819b;
+    color: #fff;
+    padding: 10px 0;
+    border-radius: 4px;
+    display: inline-block;
+}
+
 .create-post {
     font-size: 16px;
     color: white;
@@ -115,4 +116,34 @@ body {
     padding: 10px 30px;
     border-radius: 4px;
     border: none;
+}
+
+
+
+.btn-edit {
+    background-color: #3b819b;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.btn-allry {
+    background-color: #6c757d;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    margin: 10pxpx;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    color: white;
+    margin: 17px 0 0 0;
+    padding: 10px 20px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
 }
